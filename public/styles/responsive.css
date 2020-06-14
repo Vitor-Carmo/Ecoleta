@@ -1,0 +1,185 @@
+@media(max-width: 900px){
+    #page-home{
+        background-image: none;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a{
+        position: absolute;
+        bottom: 28px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main{
+        align-items: center;
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    main .card img {
+        height: 200px;
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+
+    }
+
+    #page-create-point .field-group .field + .field{
+        margin-left: 0;
+    }
+}
+
+
+@media(max-width: 1700px){
+    #page-home{
+        background-position-x: 40vw;
+    }
+}
+
+
+@media(max-width: 760px){
+    #page-home{
+        background-position-y: 200px;
+    }
+}
+
+
+@media(max-width: 528px){
+
+
+    #page-create-point form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+
+    }
+
+    #page-create-point form h1 {
+        font-size: 29px;
+        
+    }
+
+    #page-create-point form legend h2{
+        font-size: 20px;
+        
+    }
+
+
+    #page-create-point header a{
+        font-size: 14px;
+
+    }
+ 
+    #page-create-point form fieldset legend {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #page-create-point form fieldset legend h2 {
+        margin-bottom: 16px;
+    }
+    
+
+    #page-create-point form fieldset .items-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+
+}
+
+
+@media(max-width: 380px){
+
+    #page-create-point header {
+        display: flex;
+        align-items: center;
+
+    }
+    
+    #page-create-point header a{
+        font-size: 0px;
+
+    }
+
+  
+
+    #page-create-point header img {
+        margin-top: 0px;
+        
+    }
+
+
+    #page-create-point form {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px;
+    }
+
+    #page-create-point form h1 {
+        font-size: 26px;
+        
+    }
+    
+    #page-create-point form fieldset {
+        margin-bottom: 10px;
+    }
+
+    #page-create-point form fieldset h2{
+        font-size: 18px;
+        
+    }
+
+
+    #page-create-point form fieldset .items-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    #page-create-point form fieldset .field-group{
+        width: 240px;
+    }
+
+    #page-create-point form button {
+        width: 200px;
+        font-size: 12px;
+    }
+
+    #page-search-results header a {
+        font-size: 0;
+    }
+
+    #page-search-results main {
+        margin-top: 30px;
+    }
+
+    #page-search-results main .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #page-search-results main .card {
+        margin-bottom: 80px;
+    }
+
+    #page-search-results main .card h1{
+        margin-left: 0;
+    }
+    
+
+}

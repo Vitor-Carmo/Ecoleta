@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+        {% block title %}
+            <title> Ecoleta </title>
+        {% endblock title %}
+        
+
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+        
+        {% block styles %}
+        {% endblock styles %}
+
+        <link rel='stylesheet' type='text/css' media='screen' href='styles/responsive.css'>
+
+
+        <script src='main.js'></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+      
+        
+    </head>
+
+    <body>
+
+        <div id="{{ pageId }}">
+            {% block content %}
+            {% endblock content %}
+        </div>
+
+
+        {% block modal %}
+        {% endblock modal %}
+
+        {% block scripts %}
+        {% endblock scripts %}
+
+    </body>
+</html>
+
+
+
+<!-- 1:35:20 -->
